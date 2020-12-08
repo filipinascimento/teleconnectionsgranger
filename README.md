@@ -36,5 +36,6 @@ Dependencies are listed in `requirements.txt`.
 
 ## Citing this work or software
 If you use the processed data or any of the scripts in a publication, please cite the respective works listed here.
+
 Filipi N Silva, , Didier A. Vega-Oliveros, Xiaoran Yan, Alessandro Flammini, Filippo Menczer, Filippo Radicchi, Ben Kravitz, and Santo Fortunato. "Detecting climate teleconnections with Granger causality." arXiv:2012.03848 [physics.ao-ph] (2020). http://arxiv.org/abs/2012.03848
 
