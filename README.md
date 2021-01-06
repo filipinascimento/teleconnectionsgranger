@@ -5,6 +5,7 @@ This repository holds a collection of python notebooks that can be used to repli
 ## Publication
 Filipi N Silva, , Didier A. Vega-Oliveros, Xiaoran Yan, Alessandro Flammini, Filippo Menczer, Filippo Radicchi, Ben Kravitz, and Santo Fortunato. "Detecting climate teleconnections with Granger causality." arXiv:2012.03848 [physics.ao-ph] (2020). http://arxiv.org/abs/2012.03848
 
+
 ## Authors
 - Filipi N. Silva
 - Didier A. Vega-Oliveros
@@ -15,6 +16,7 @@ Filipi N Silva, , Didier A. Vega-Oliveros, Xiaoran Yan, Alessandro Flammini, Fil
 - Ben Kravitz
 - Santo Fortunato
 
+
 ## How to use
 
 - First download the preprocessed data from zenodo and save it in `Data` Folder.
@@ -23,12 +25,15 @@ Filipi N Silva, , Didier A. Vega-Oliveros, Xiaoran Yan, Alessandro Flammini, Fil
 - Use the `DrawMaps` notebook to construct a figure with the data.
 - You can load your own data by loading and converting it in the `ParseData` notebook. 
 
+
 ### Data
 The `Data` folder contains example output data used in the article for Granger Causality (`Causality_d7_l<maxLag>_v3.csv`) and Lagged Correlation (`Causality_d30_l<maxLag>_v3.csv`).
 The preprocessed data is avaiable on zenodo: https://dx.doi.org/10.5281/zenodo.4270623
 
+
 ### Dependencies
 Dependencies are listed in `requirements.txt`.
+
 
 ## TODO
  - Make it modular and release it as a pyPI package.
