@@ -1,0 +1,19 @@
+name: teleconnectionsgranger
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - cartopy
+  - cython
+  - geopandas
+  - tqdm
+  - ipywidgets
+  - pip
+  - pip:
+    - git+https://github.com/pik-copan/pyunicorn.git@3e2ddea01abbd70523228bbe14676e6c27f66c27

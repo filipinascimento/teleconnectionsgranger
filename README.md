@@ -32,7 +32,11 @@ The preprocessed data is avaiable on zenodo: https://dx.doi.org/10.5281/zenodo.4
 
 
 ### Dependencies
-Dependencies are listed in `requirements.txt`.
+Conda environment is recommended to run the current code. We provide an environment in `environment.yml`.
+First, install conda or miniconda from https://docs.conda.io/en/latest/miniconda.html then run 
+```bash
+conda env create -f environment.yml
+```
 
 
 ## TODO
